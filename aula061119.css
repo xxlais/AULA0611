@@ -1,0 +1,35 @@
+table, th, td {
+    border: 3px solid rgb(238, 132, 132);
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+
+table tr:nth-child(even) {
+    background-color: #b17b7b;
+}
+    table {
+        margin: 20px;
+    }
+    table:hover {
+        background-color: aquamarine
+    }
+
+ .friends {
+        border-collapse: collapse;
+      }
+      
+     .friends th {
+        border-bottom: 1px solid;
+      }
+     .friends td, .friends th {
+        border-left: 1px solid;
+        padding: 5px 10px;
+      }
+    .friends td:first-child, .friends th:first-child {
+        border-left: none;
+      }
+      
